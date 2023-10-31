@@ -8,7 +8,6 @@ string expandAroundCenter(string s, int left, int right) {
     return s.substr(left + 1, right - left - 1);
 }
 
-
 string longestPalindrome(string s) {
     string longest = "";
     for (int i = 0; i < s.length(); i++) {
